@@ -98,16 +98,35 @@ const Sponsors: React.FC = () => {
           <h3 className="text-2xl font-bold text-slate-900 text-center mb-8">
             Our Amazing <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Sponsors</span>
           </h3>
-          <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 text-center">
-            <div className="flex items-center justify-center mb-4">
-              <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">JP</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Jukebox Print */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 text-center">
+              <div className="flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-xl">JP</span>
+                </div>
+              </div>
+              <h4 className="text-xl font-semibold text-slate-900 mb-2">Jukebox Print</h4>
+              <p className="text-slate-600 mb-4">
+                Big shoutout to Jukebox Print for providing <a href="https://www.jukeboxprint.com/custom-stickers" className="text-purple-600 hover:text-purple-700 font-medium">custom stickers</a> for all our participants!
+              </p>
+            </div>
+
+            {/* .xyz domains */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-100 text-center">
+              <div className="flex items-center justify-center mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">.xyz</span>
+                </div>
+              </div>
+              <h4 className="text-xl font-semibold text-slate-900 mb-2">.xyz Domains</h4>
+              <p className="text-slate-600 mb-4">
+                Thanks to .xyz domains for providing 350 free domain names for our participants to showcase their projects!
+              </p>
+              <div className="bg-blue-50 rounded-lg p-3 text-sm text-blue-700">
+                <strong>Code:</strong> HAD25 | <strong>Valid until:</strong> Dec 31, 2025
               </div>
             </div>
-            <h4 className="text-xl font-semibold text-slate-900 mb-2">Jukebox Print</h4>
-            <p className="text-slate-600 mb-4">
-              Big shoutout to Jukebox Print for providing <a href="https://www.jukeboxprint.com/custom-stickers" className="text-purple-600 hover:text-purple-700 font-medium">custom stickers</a> for all our participants!
-            </p>
           </div>
         </div>
 
