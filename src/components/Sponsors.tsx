@@ -121,11 +121,8 @@ const Sponsors: React.FC = () => {
               </div>
               <h4 className="text-xl font-semibold text-slate-900 mb-2">.xyz Domains</h4>
               <p className="text-slate-600 mb-4">
-                Thanks to .xyz domains for providing 350 free domain names for our participants to showcase their projects!
+                Thanks to .xyz domains for providing free domain names for our participants to showcase their projects!
               </p>
-              <div className="bg-blue-50 rounded-lg p-3 text-sm text-blue-700">
-                <strong>Code:</strong> HAD25 | <strong>Valid until:</strong> Dec 31, 2025
-              </div>
             </div>
           </div>
         </div>
